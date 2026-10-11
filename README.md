@@ -35,19 +35,15 @@ The report answers the following business requirements:
 - Step 10 : **Sales by City page** - A map visual plots Net Sales by customer `City` - Requirement 8.
 - Step 11 : Titles were added to the visuals and the layout was aligned on each page.
 
-Measures used (paste your DAX here):
+Measures used :
 
-        Sum of Net Sales = <your DAX>
+        Sum of Net Sales = CALCULATE(SUM('Fact Table'[Net Sales]),ALL('Date Table 1'),USERELATIONSHIP('Date Table 2'[Date],'Fact Table'[Date (dd/mm/yyyy)]))
 
-        Total Profit = <your DAX>
+        Total Profit = CALCULATE(SUM('Fact Table'[Profit]),ALL('Date Table 1'),USERELATIONSHIP('Date Table 2'[Date],'Fact Table'[Date (dd/mm/yyyy)]))
 
-        Total Quantity = <your DAX>
+        Total Quantity = CALCULATE(SUM('Fact Table'[Units Sold]),ALL('Date Table 1'),USERELATIONSHIP('Date Table 2'[Date],'Fact Table'[Date (dd/mm/yyyy)] ))
 
 # Snapshot of report (Power BI Service)
-
-<add screenshot here>
-
-# Report Snapshot (Power BI DESKTOP)
 
 <add one screenshot per page: Overview, Top/Bottom 5 Products, Comparison, Table Visual, Sales by City>
 
@@ -57,36 +53,82 @@ A multi-page report (six pages) was created on Power BI Desktop & it was then pu
 
 Following inferences can be drawn from the report (fill in the values from your report);
 
-### [1] Total Number of Orders = <value>
+### [1] Total Number of Orders = 3510
 
 ### [2] Top / Bottom 5 Products
 
-    Top 5 by Sales      - <product names>
-    Bottom 5 by Sales   - <product names>
-    Top 5 by Profit     - <product names>
-    Bottom 5 by Profit  - <product names>
-    Top 5 by Quantity   - <product names>
-    Bottom 5 by Quantity - <product names>
+    Top 5 by Sales
+        1. Apple iPhone 14
+        2. Apple MacBook Air
+        3. Sony Bravia 55" TV
+        4. Samsung Galaxy S21
+        5. HP Pavilion Laptop
+
+    Bottom 5 by Sales
+        1. Colgate Toothpaste
+        2. Dove Soap Pack
+        3. Nivea Body Lotion
+        4. L'Oreal Shampoo
+        5. Tupperware Lunch Box
+
+    Top 5 by Profit
+        1. Apple iPhone 14
+        2. Apple MacBook Air
+        3. Sony Bravia 55" TV
+        4. Samsung Galaxy S21
+        5. HP Pavilion Laptop
+
+    Bottom 5 by Profit
+        1. Colgate Toothpaste
+        2. Dove Soap Pack
+        3. Nivea Body Lotion
+        4. L'Oreal Shampoo
+        5. Tupperware Lunch Box
+
+    Top 5 by Quantity
+        1. Apple iPhone 14
+        2. Raymond Suit
+        3. Fossil Smartwatch
+        4. Zara Casual Shirt
+        5. IFB Microwave Oven
+
+    Bottom 5 by Quantity
+        1. Borosil Glass Set
+        2. FabIndia Kurta
+        3. Milton Thermos Flask
+        4. Tupperware Lunch Box
+        5. Nivea Body Lotion
 
 ### [3] Sales Trend
 
-    a) Highest sales year / quarter / month - <value>
-    b) Lowest sales year / quarter / month  - <value>
-    c) Overall trend (increasing / decreasing / seasonal) - <value>
+    a) a) Highest sales 
+        year - 2023
+        quarter - 3rd quarter 
+        month - September
+
+    b) Lowest sales 
+            year - 2022
+            quarter - 3rd quater
+            month  - July
+
+    c) Overall sales trend is seasonal for this company
 
 ### [4] Sales vs Profit
 
-    <describe the pattern seen in the scatter chart, e.g. whether higher sales lead to higher profit and any outliers>
+    In this company, sales and profit are showing a positive relationship. No clear outliers are present.
 
 ### [5] Average Discount by Promotion Category
 
-    <promotion name> - <value>
-    <promotion name> - <value>
+    Weekend Flash Sale - 22.6K
+    Clearance Sale - 17.7K
+    Summer Sale - 7.4K
+    New Year Special - 3.2K
+    Festive Diwali - 0.3K
 
 ### [6] Sales by City
 
-    Highest sales - <city> (<value>)
-    Lowest sales  - <city> (<value>)
+    Highest sales - Bhopal (15403536.3)
+    Lowest sales  - Bangaluru (1549046.0)
 
 ### [7] Period Comparison
 
