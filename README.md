@@ -1,8 +1,14 @@
-# Sales-Data-Analysis-Report
+<H1 align="Center">
+Sales Data Analysis Report
+</H1>
+<H3 align="center">
+Report Link
+  <a href="https://app.powerbi.com/view?r=eyJrIjoiNDY3ZWExMzgtMDk2Zi00MjdmLTk4ZmQtOTMyOGZlMGJiYzk3IiwidCI6ImJkNWY0MGI3LWY2NGMtNDIyNS04YjBkLWM1MTVjZTVlMTNkOCJ9&pageName=e0a23e35e191bc0deea3">
+    <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="PowerBI">
+  </a>
+</H3>
 
-### Report Link : https://app.powerbi.com/view?r=eyJrIjoiNDY3ZWExMzgtMDk2Zi00MjdmLTk4ZmQtOTMyOGZlMGJiYzk3IiwidCI6ImJkNWY0MGI3LWY2NGMtNDIyNS04YjBkLWM1MTVjZTVlMTNkOCJ9&pageName=e0a23e35e191bc0deea3
-
-## Problem Statement
+## 📌 Problem Statement 
 
 This report helps the business understand its sales performance. It shows which products drive the most (and least) sales, profit and quantity sold, how sales move over time, how discounts are being used, and where customers are located. By identifying best and worst performers, the business can decide which products to promote, which to review, and where discounting is or isn't paying off.
 
@@ -17,7 +23,7 @@ The report answers the following business requirements:
 7. Order-level details (Sales, Profit, Discount, Net Sales and all remaining fields) that can be filtered using visual filters (Product / Date / Customer / Promotion).
 8. Sales by city.
 
-### Steps followed
+## 📍 Steps followed
 
 - Step 1 : Load the sales data into Power BI Services and prepare it in Power Query.
 - Step 2 : Build a star-schema data model with one fact table (`Fact Table`) and the dimension tables `Dim Customers`, `Dim Product`, `Dim Promotion`, `Date Table 1` and `Date Table 2`, and create relationships between them.
@@ -35,19 +41,21 @@ The report answers the following business requirements:
 - Step 10 : **Sales by City page** - A map visual plots Net Sales by customer `City` - Requirement 8.
 - Step 11 : Titles were added to the visuals and the layout was aligned on each page.
 
-Measures used :
+### 📐 Measures used :
 
-        Sum of Net Sales = CALCULATE(SUM('Fact Table'[Net Sales]),ALL('Date Table 1'),USERELATIONSHIP('Date Table 2'[Date],'Fact Table'[Date (dd/mm/yyyy)]))
+```dax
+Sum of Net Sales = CALCULATE(SUM('Fact Table'[Net Sales]),ALL('Date Table 1'),USERELATIONSHIP('Date Table 2'[Date],'Fact Table'[Date (dd/mm/yyyy)]))
+```
 
         Total Profit = CALCULATE(SUM('Fact Table'[Profit]),ALL('Date Table 1'),USERELATIONSHIP('Date Table 2'[Date],'Fact Table'[Date (dd/mm/yyyy)]))
 
         Total Quantity = CALCULATE(SUM('Fact Table'[Units Sold]),ALL('Date Table 1'),USERELATIONSHIP('Date Table 2'[Date],'Fact Table'[Date (dd/mm/yyyy)] ))
 
 # Snapshot of report
+![Overall Dashboard](assets/Dashboard.png)
 
 
-
-# Insights
+# 🔎 Insights
 
 A multi-page report (six pages) was created on Power BI Desktop & it was then published to Power BI Service.
 
