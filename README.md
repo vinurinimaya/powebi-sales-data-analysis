@@ -1,6 +1,6 @@
 # Sales-Data-Analysis-Report
 
-### Report Link : <paste your Power BI Service report link here>
+### Report Link : https://app.powerbi.com/view?r=eyJrIjoiNDY3ZWExMzgtMDk2Zi00MjdmLTk4ZmQtOTMyOGZlMGJiYzk3IiwidCI6ImJkNWY0MGI3LWY2NGMtNDIyNS04YjBkLWM1MTVjZTVlMTNkOCJ9&pageName=e0a23e35e191bc0deea3
 
 ## Problem Statement
 
@@ -43,9 +43,9 @@ Measures used :
 
         Total Quantity = CALCULATE(SUM('Fact Table'[Units Sold]),ALL('Date Table 1'),USERELATIONSHIP('Date Table 2'[Date],'Fact Table'[Date (dd/mm/yyyy)] ))
 
-# Snapshot of report (Power BI Service)
+# Snapshot of report
 
-<add one screenshot per page: Overview, Top/Bottom 5 Products, Comparison, Table Visual, Sales by City>
+
 
 # Insights
 
