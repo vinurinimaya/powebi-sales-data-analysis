@@ -43,7 +43,7 @@ The report answers the following business requirements:
 
 ### 📐 Measures used :
 
-```dax
+```sql
 Sum of Net Sales = CALCULATE(SUM('Fact Table'[Net Sales]),ALL('Date Table 1'),USERELATIONSHIP('Date Table 2'[Date],'Fact Table'[Date (dd/mm/yyyy)]))
 ```
 
