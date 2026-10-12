@@ -50,7 +50,7 @@ Sum of Net Sales = CALCULATE(SUM('Fact Table'[Net Sales]),ALL('Date Table 1'),US
 Total Profit = CALCULATE(SUM('Fact Table'[Profit]),ALL('Date Table 1'),USERELATIONSHIP('Date Table 2'[Date],'Fact Table'[Date (dd/mm/yyyy)]))
 ```
 ```sql
-        Total Quantity = CALCULATE(SUM('Fact Table'[Units Sold]),ALL('Date Table 1'),USERELATIONSHIP('Date Table 2'[Date],'Fact Table'[Date (dd/mm/yyyy)] ))
+Total Quantity = CALCULATE(SUM('Fact Table'[Units Sold]),ALL('Date Table 1'),USERELATIONSHIP('Date Table 2'[Date],'Fact Table'[Date (dd/mm/yyyy)] ))
 ```
 
 # Snapshot of the Dashboard
@@ -65,9 +65,9 @@ Total Profit = CALCULATE(SUM('Fact Table'[Profit]),ALL('Date Table 1'),USERELATI
 
 # 🔎 Insights
 
-A multi-page report (six pages) was created on Power BI Desktop & it was then published to Power BI Service.
+A multi-page report (six pages) was created on Power BI Service to visualize key findings of the analysis.
 
-Following inferences can be drawn from the report (fill in the values from your report);
+Following inferences can be drawn from the report;
 
 ### [1] Total Number of Orders = 3510
 
