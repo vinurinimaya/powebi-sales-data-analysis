@@ -51,9 +51,15 @@ Sum of Net Sales = CALCULATE(SUM('Fact Table'[Net Sales]),ALL('Date Table 1'),US
 
         Total Quantity = CALCULATE(SUM('Fact Table'[Units Sold]),ALL('Date Table 1'),USERELATIONSHIP('Date Table 2'[Date],'Fact Table'[Date (dd/mm/yyyy)] ))
 
-# Snapshot of report
+# Snapshot of the Dashboard
 ![Overall Dashboard](assets/Dashboard.png)
 
+# Snapshots of Report
+![snap1](assets/page1.png)
+![snap2](assets/page2.png)
+![snap3](assets/page3.png)
+![snap4](assets/page4.png)
+![snap5](assets/page5.png)
 
 # 🔎 Insights
 
