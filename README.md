@@ -69,9 +69,9 @@ A multi-page report (six pages) was created on Power BI Service to visualize key
 
 Following inferences can be drawn from the report.
 
-### [1] Total Number of Orders = 3510
+* Total Number of Orders during the period of analysis is 3510.
 
-### [2] Top / Bottom 5 Products
+* The top / bottom analysis was done to identify the most and least products in sales, profit anf quantity aspects.
 
     Top 5 by Sales
         1. Apple iPhone 14
