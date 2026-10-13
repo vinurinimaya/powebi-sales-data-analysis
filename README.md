@@ -67,7 +67,7 @@ Total Quantity = CALCULATE(SUM('Fact Table'[Units Sold]),ALL('Date Table 1'),USE
 
 A multi-page report (six pages) was created on Power BI Service to visualize key findings of the analysis.
 
-Following inferences can be drawn from the report;
+Following inferences can be drawn from the report.
 
 ### [1] Total Number of Orders = 3510
 
