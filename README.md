@@ -71,35 +71,10 @@ Following inferences can be drawn from the report.
 
 * Total Number of Orders during the period of analysis is 3510.
 
-* The top / bottom analysis was done to identify the most and least products in sales, profit anf quantity aspects.
+* The top / bottom analysis was done to identify the most and least products in sales, profit and quantity aspects.
 
-    Top 5 by Sales
-        1. Apple iPhone 14
-        2. Apple MacBook Air
-        3. Sony Bravia 55" TV
-        4. Samsung Galaxy S21
-        5. HP Pavilion Laptop
+When it comes to sales and profit, both show the exact products over the highest and lowest gainings. Apple iPhone 14, Apple MacBook Air, Sony Bravia 55" TV, Samsung Galaxy S21 and HP Pavilion Laptop are leading in both of these sectors. Meanwhile Colgate Toothpaste, Dove Soap Pack, Nivea Body Lotion, L'Oreal Shampoo and Tupperware Lunch Box are showing the lowest sales and profit values. By contrast it's clear that in this company the highest amount of sales and profit are made by electronic items and the lowest amount of sales are made by cosmetics and household items.
 
-    Bottom 5 by Sales
-        1. Colgate Toothpaste
-        2. Dove Soap Pack
-        3. Nivea Body Lotion
-        4. L'Oreal Shampoo
-        5. Tupperware Lunch Box
-
-    Top 5 by Profit
-        1. Apple iPhone 14
-        2. Apple MacBook Air
-        3. Sony Bravia 55" TV
-        4. Samsung Galaxy S21
-        5. HP Pavilion Laptop
-
-    Bottom 5 by Profit
-        1. Colgate Toothpaste
-        2. Dove Soap Pack
-        3. Nivea Body Lotion
-        4. L'Oreal Shampoo
-        5. Tupperware Lunch Box
 
     Top 5 by Quantity
         1. Apple iPhone 14
