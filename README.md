@@ -74,7 +74,9 @@ Following inferences can be drawn from the report.
 * The top / bottom analysis was done to identify the most and least products in sales, profit and quantity aspects.
 
     When it comes to sales and profit, both show the exact products over the highest and lowest gainings. Apple iPhone 14, Apple MacBook Air, Sony Bravia 55" TV, Samsung Galaxy S21 and HP Pavilion Laptop are leading in both of these sectors. 
+    
     Meanwhile Colgate Toothpaste, Dove Soap Pack, Nivea Body Lotion, L'Oreal Shampoo and Tupperware Lunch Box are showing the lowest sales and profit values. 
+    
     By contrast it's clear that in this company the highest amount of sales and profit are made by electronic items and the lowest amount of sales are made by cosmetics and household items.
 
 
