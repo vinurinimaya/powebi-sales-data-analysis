@@ -79,6 +79,8 @@ Following inferences can be drawn from the report.
     
     By contrast it's clear that in this company the highest amount of sales and profit are made by electronic items and the lowest amount of sales are made by cosmetics and household items.
 
+    When it comes to the quantity of sales, the item which records the highest is as same as profit and sales, Apple iphone 14. But the rest of the list is completely different. 
+
 
     Top 5 by Quantity
         1. Apple iPhone 14
