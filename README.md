@@ -81,15 +81,8 @@ Following inferences can be drawn from the report.
 
     When it comes to the quantity of sales, the item which records the highest is as same as profit and sales, Apple iphone 14. But the rest of the list is completely different. The top 5 items sold a including Raymond Suit, Fossil Smartwatch, Zara Casual Shirt and FB Microwave Oven.
 
-    
+    The least sold items of this company includes Borosil Glass Set, abIndia Kurta, Milton Thermos Flask, Tupperware Lunch Box and Nivea Body Lotion.
 
-
-    Bottom 5 by Quantity
-        1. Borosil Glass Set
-        2. FabIndia Kurta
-        3. Milton Thermos Flask
-        4. Tupperware Lunch Box
-        5. Nivea Body Lotion
 
 ### [3] Sales Trend
 
