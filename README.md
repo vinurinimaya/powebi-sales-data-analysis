@@ -86,7 +86,7 @@ Following inferences can be drawn from the report.
 
 ### [3] Sales Trend
 
-   Overall sales trend is seasonal for this company. There are no drastic peaks or troughs can be obtained
+   * Overall sales trend is seasonal for this company. There are no drastic peaks or troughs can be obtained
    
     a) a) Highest sales 
         year - 2023
