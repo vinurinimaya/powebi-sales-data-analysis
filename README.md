@@ -86,6 +86,8 @@ Following inferences can be drawn from the report.
 
 ### [3] Sales Trend
 
+   Overall sales trend is seasonal for this company. There are no drastic peaks or troughs can be obtained
+   
     a) a) Highest sales 
         year - 2023
         quarter - 3rd quarter 
@@ -95,8 +97,6 @@ Following inferences can be drawn from the report.
             year - 2022
             quarter - 3rd quater
             month  - July
-
-    c) Overall sales trend is seasonal for this company
 
 ### [4] Sales vs Profit
 
