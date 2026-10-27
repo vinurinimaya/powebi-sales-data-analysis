@@ -69,9 +69,9 @@ A multi-page report (six pages) was created on Power BI Service to visualize key
 
 Following inferences can be drawn from the report.
 
-* Total Number of Orders during the period of analysis is 3510.
+### Total Number of Orders during the period of analysis is 3510.
 
-* The top / bottom analysis was done to identify the most and least products in sales, profit and quantity aspects.
+### The top / bottom analysis was done to identify the most and least products in sales, profit and quantity aspects.
 
     When it comes to sales and profit, both show the exact products over the highest and lowest gainings. Apple iPhone 14, Apple MacBook Air, Sony Bravia 55" TV, Samsung Galaxy S21 and HP Pavilion Laptop are leading in both of these sectors. 
     
@@ -84,19 +84,15 @@ Following inferences can be drawn from the report.
     The least sold items of this company includes Borosil Glass Set, abIndia Kurta, Milton Thermos Flask, Tupperware Lunch Box and Nivea Body Lotion.
 
 
-### [3] Sales Trend
+### Sales Trend
 
-   * Overall sales trend is seasonal for this company. There are no drastic peaks or troughs can be obtained
-   
-    a) a) Highest sales 
-        year - 2023
-        quarter - 3rd quarter 
-        month - September
+     * Overall sales trend is seasonal for this company. There are no drastic peaks or troughs can be obtained
 
-    b) Lowest sales 
-            year - 2022
-            quarter - 3rd quater
-            month  - July
+     * Highest sales were recorded in the 3rd quater of 2023. The month with the highest record of sales was September. 
+
+     * In the other hand, lowest record for sales is in the 3rd quater of 2022. The month with the lowest sales record is July.
+
+     * The graphical representation shows a steap through for the year 2024, hence, the sales record for the year goes in as an outlier. But the reason can be given as only one day of the year 2024 (01.01.2024) is included in the data set. Therefore, it is possible to disregard the variation happened to the concistant pattern followed during the previous two years. 
 
 ### [4] Sales vs Profit
 
@@ -104,11 +100,13 @@ Following inferences can be drawn from the report.
 
 ### [5] Average Discount by Promotion Category
 
-    Weekend Flash Sale - 22.6K
-    Clearance Sale - 17.7K
-    Summer Sale - 7.4K
-    New Year Special - 3.2K
-    Festive Diwali - 0.3K
+    Following are the average of discount with respect to each promotion category. It shows that the highest recorded discounts were given in Weekedn Flash Sale.
+        
+        * Weekend Flash Sale - 22.6K
+        * Clearance Sale - 17.7K
+        * Summer Sale - 7.4K
+        * New Year Special - 3.2K
+        * Festive Diwali - 0.3K
 
 ### [6] Sales by City
 
