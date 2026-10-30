@@ -110,11 +110,8 @@ Following inferences can be drawn from the report.
 
 ### [6] Sales by City
 
-    Highest sales - Bhopal (15403536.3)
-    Lowest sales  - Bangaluru (1549046.0)
+    The map represent the amount of sales made in different cities. The size of the bubble associated with each city represent the amounts of sales made in the city respectively. Highest sales(15403536.3) were reported in Bhopal and the lowest sales(1549046.0) was recorded in Bangaluru.
 
 ### [7] Period Comparison
 
-    Sales, profit and quantity change between the two selected periods change when different dates are selected in the slicers.
-
-Values on the report will change if different visual filters are applied.
+    The viewers of the dashboard are allowed to compare sales, profit and quantity between two selected periods selected in the slicers. This gives the viewers the ability to adjust the report of their need.
